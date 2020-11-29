@@ -4,24 +4,24 @@ A:[Gravity]
 P:[Unit of measurement for work (NM)]
 A:[Newton Meter]
 
-P:[The amount of matter in an object]
-A:[Mass]
-
-P:[Unit of measurement for work (J)]
-A:[Joules]
-
-P:[Unit of measurement of force]
-A:[Newton]
+P:[Energy used to push or pull an object]
+A:[Force]
 
 P:[When an object is moved in the same direction as the force is applied]
 A:[Work]
 
-P:[The force exerted on an object when it is in contact with another object as it moves or tries to move]
-A:[Friction]
+P:[The amount of matter in an object]
+A:[Mass]
+
+P:[Unit of measurement of force]
+A:[Newton]
 
 P:[The force of gravity on an object]
 A:[Weight]
 
-P:[Energy used to push or pull an object]
-A:[Force]
+P:[Unit of measurement for work (J)]
+A:[Joules]
+
+P:[Who are the wizards?]
+A:[Team No Name]
 

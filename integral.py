@@ -1,9 +1,26 @@
-def func1(n):
-  return "∫X^" + str(n) + "dx\n" + "\nStep 1) Applying power rule:\n" + "x^" + str(n) + "+ 1 / " + str(n) + "+ 1\n" + "X^" + str(n + 1) + "/" + str(n + 1) + "+C" + "\n"
+# not much to comment here other than each of these functions corresponds to a basic form of an indefinite integral
+# it takes in a coefficient for x and shows the steps to the solution of that integral
 
+def func1(n):
+  text = "∫X^" + str(n) + "dx\n"
+  text += "\nStep 1) Applying power rule:\n"
+  text += "x^" + str(n) + "+ 1 / " + str(n) + "+ 1\n"
+  text += "\nAnswer:\n"
+  text += "(x^" + str(n+1) + ")/" + str(n+1) + " + C" + "\n"
+  return text
 
 def func2(n):
-  return "∫ 1/" + str(n) + "x dx \n"+"\nStep 1) Applying linearity:\n"+"\n1 / " + str(n) + " ∫1 / x dx\n"+"\nStep 2) Solving standard integral 1/x\n"+"\nAnswer:\n"+"ln |x|" + "/" + str(n) + " + C" + "\n"
+  text =  "∫ 1/" + str(n) 
+  text += "x dx \n"
+  text += "\nStep 1) Applying linearity:\n"
+  text += "\n1 / " 
+  text +=  str(n) 
+  text +=  " ∫1 / x dx\n"
+  text += "\nStep 2) Solving standard integral 1/x\n"
+  text += "\nAnswer:\n"
+  text += "(ln |x|" + ")/" + str(n) + " + C" + "\n"
+
+  return text
 
 
 def func3(n):
@@ -292,5 +309,27 @@ def func19(n):
     text += "\nsinh(" + str(n) + "x)/" + str(n) + " + C\n"
   return text
 
+basic_forms = {
+  "∫ x^(n) dx" : func1,
+  "∫ 1 / (x) dx" : func2,
+  "∫ e^(x) dx":func3,
+  # "∫ a^(x) dx":lambda x: func4,
+  "∫ sin (x) dx":func5,
+  "∫ cos (x) dx":func6,
+  "∫ tan (x) dx":func7,
+  "∫ csc (x) dx":func8,
+  "∫ sec (x) dx":func9,
+  "∫ cot (x) dx":func10,
+  "∫ sec^2(x) dx":func11,
+  "∫ csc^2(x) dx":func12,
+  "∫ sec(x) tan(x) dx" : func13,
+  "∫ csc(X) cot(x) dx":func14,
+  "∫ 1 / √(1 - (x)^2) dx":func15,
+  "∫ -1 / √(1 - (x)^2) dx":func16,
+  "∫ 1 / (x^2 + 1) dx":func17,
+  "∫ sinh (x) dx":func18,
+  "∫ cosh (x) dx":func19
+}
 
-print(func19(30))
+
+# print(func19(30))

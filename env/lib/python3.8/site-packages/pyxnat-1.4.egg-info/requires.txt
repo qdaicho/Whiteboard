@@ -1,0 +1,5 @@
+future>=0.16
+lxml>=4.3
+pathlib>=1.0
+requests>=2.20
+six>=1.15
