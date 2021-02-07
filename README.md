@@ -4,6 +4,7 @@
 This application was initially developed for the Windsor Engineering Competition of 2020. The theme for this competition was to create a study enhancement application.
 **Technologies used: Qt for Python, Numpy, Pandas, XLSX, Os**
 
+## Video Demo
 https://user-images.githubusercontent.com/33791954/107157764-f1829100-6953-11eb-991b-4453171ecc7d.mp4
 
 ## Scenario
