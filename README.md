@@ -1,6 +1,10 @@
+![whiteboard](https://user-images.githubusercontent.com/33791954/107157768-fa736280-6953-11eb-956a-4876be5255f3.jpg)
+
 # Whiteboard (Student Improvement Application)
 This application was initially developed for the Windsor Engineering Competition of 2020. The theme for this competition was to create a study enhancement application.
 **Technologies used: Qt for Python, Numpy, Pandas, XLSX, Os**
+
+https://user-images.githubusercontent.com/33791954/107157764-f1829100-6953-11eb-991b-4453171ecc7d.mp4
 
 ## Scenario
 > Online school has been a difficult transition for all students this year, and with the third semester of online school just around the corner students could use more help getting their schoolworkdone. Therefore,the University of Windsor hasrequested that your software firm develop a custom learning app to help students’study and work more effectively and efficiently. Toreduce the number of late assignments received by professors, the University has requested that the app include an Automatic Scheduling program to help students stay organized and up to date with schoolwork. It must also includea virtual flash card program,which will help students to study and memorize course content efficiently the night before their exams. Upon reviewing the average of the latest Integral Calculus course, the University has also recommended that an integral calculator be added to the program. Your team is also encouraged to include any additional programs that might benefit students.
